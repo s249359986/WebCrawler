@@ -36,11 +36,11 @@ class lagouItem(scrapy.Item):
     # name = scrapy.Field()
 
     # 职位id
-    pid = scrapy.Field()
+    #pid = scrapy.Field()
     # 职业名称
     positionName = scrapy.Field()
     # 求职发布者
-    interviewer = scrapy.Field()
+    #interviewer = scrapy.Field()
     # 工作年限
     workYear = scrapy.Field()
     # 工资
@@ -54,16 +54,16 @@ class lagouItem(scrapy.Item):
     # 工作领域
     industryField = scrapy.Field()
     # 上市情况
-    financeStage = scrapy.Field()
+    #financeStage = scrapy.Field()
     # 公司规模
-    companySize = scrapy.Field()
+    #companySize = scrapy.Field()
     # 发布时间
-    time = scrapy.Field()
+    #time = scrapy.Field()
     # 更新时间
-    updated_at = scrapy.Field()
+    #updated_at = scrapy.Field()
     # 职位详情
-    detail = scrapy.Field()
+    #detail = scrapy.Field()
     # 工作地点
-    location = scrapy.Field()
+    #location = scrapy.Field()
 
     pass   
